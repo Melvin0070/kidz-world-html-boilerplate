@@ -1,0 +1,137 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+
+body{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.btex {
+    color: white;
+    position: absolute;
+    font-size: 5rem;
+    display: block;
+    margin: 4rem 4rem;
+}
+
+#undertext {
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 2px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    align-items: center;
+}
+
+
+
+.logo{
+    width: 2rem;
+}
+
+
+.banner img {
+    width: 100%;
+    
+}
+.shop {
+    display: flex;
+    margin: 1rem 4rem;
+    font-weight: bold;
+    align-items: center;
+}
+
+
+.allbooks,.board-games,.handmade-products{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 100px;
+    padding: 0px 100px;
+}
+#kw_logo{
+    width: 10rem;
+    margin: 1rem 3.6rem;
+}
+.first_books,.game,.handmade {
+    height: 250px;
+}
+
+
+p {
+    padding: 10px 0px;
+    color: #8c8e8a;
+    font-weight: bold;
+    font-size: small;
+}
+
+button {
+    display: flex;
+    background-color: #6196ff;
+    color: white;
+    font-weight: bold;
+    justify-content: center;
+    border: none;
+    padding: 3px;
+    border-radius: 10%;
+}
+
+.cart_btn {
+    height: 15px;
+}
+
+h2 {
+    margin: 0.3rem 6.3rem;
+    padding-top: 100px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif, serif;
+}
+
+
+.price{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 0px 50px;
+    margin-top: 100px;
+}
+
+#kristi{
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+
+h2,.price,#byname,#end-title {
+    font-weight: bold;
+}
+
+.contact > #byname {
+    font-size: 2rem;
+    text-align: right;
+}
+
+footer p {
+    color: white;
+    text-align: right;
+}
+
+
+#end-title {
+    font-size: larger;
+}
+
