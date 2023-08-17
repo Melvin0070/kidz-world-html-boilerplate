@@ -135,3 +135,52 @@ footer p {
     font-size: larger;
 }
 
+@media (max-width: 600px) {
+
+    body{
+        text-align: center;
+    }
+
+    #kw_logo{
+        height: 2rem;
+        margin: 0rem 1rem;
+    }
+
+    .cart {
+        margin: 0rem 1rem;
+    }
+
+    .allbooks,.board-games,.hand_products{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .banner img {
+       height: 200px;
+    }
+
+    .btex {
+        color: white;
+        font-size: 2.5rem;
+        margin: 5.4rem 1rem;
+        text-align:start;
+        margin-top:0;
+    }
+
+    .price {
+        padding-bottom: 50px;
+    }
+
+    h2 {
+        padding-top: 10px;
+        margin: 0;
+        
+    }
+
+    .footer {
+        margin-top: 15px;
+    }
+}
+
