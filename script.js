@@ -3,6 +3,7 @@ let price = document.querySelectorAll(".price span")
 let names = document.querySelectorAll(".product-name")
 let cartItems = document.querySelector("#cart-items")
 
+
 let l = []
 for(let i = 0;i < addBtn.length;i++){
 l.push({
@@ -24,7 +25,7 @@ function whatsappApi(){
         }
     })
 
-    whatsappLink += "%0A" + "The total amount is " + totalamount + "$ and "+ cents + " cents"
+    whatsappLink += "%0A" + "The total amount is " + totalamount + "$ and "+ Math.floor(cents) + " cents"
 }
 
 
@@ -53,5 +54,5 @@ cartItems.addEventListener("click",() =>{
     }
     whatsappApi()
     window.open(whatsappLink)
-    console.log(`The total amount is ${totalamount} and ${cents} cents`)   
+    console.log(`The total amount is ${totalamount} and ${Math.floor(cents)} cents`)   
 })
